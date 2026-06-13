@@ -61,7 +61,7 @@ const HeroSection = () => {
                         <div className='lg:h-full md:flex'>
                             <div className="relative flex justify-center items-center h-100">
                                 <div
-                                    className="absolute z-0 w-5/6 h-[80%] bg-gradient-to-r from-[#0c64ac] to-cyan-500 opacity-25 blur-2xl"></div>
+                                    className="absolute z-0 w-5/6 h-[80%] bg-linear-to-r from-[#0c64ac] to-cyan-500 opacity-25 blur-2xl"></div>
 
                                 <div
                                     className="relative z-10 p-2 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] border border-cyan-500">
