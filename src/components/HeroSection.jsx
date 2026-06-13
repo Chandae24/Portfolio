@@ -20,14 +20,8 @@ const HeroSection = () => {
                             👋
                         </h1>
                     </div>
-                    <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
-                        Versatile and highly motivated Information Technology student with practical experience as an IT Instructor, 
-                        IT Support Specialist, and Content Creator. Proficient in both front-end and back-end development, 
-                        with a strong foundation in modern web technologies, programming, and system troubleshooting. 
-                        Experienced in delivering IT training, providing technical support, and producing high-quality digital content, 
-                        including photo and video editing. Demonstrates strong analytical thinking, problem-solving abilities, 
-                        effective communication, and adaptability in dynamic environments. Passionate about continuous learning, 
-                        innovation, and leveraging technology to develop efficient solutions for real-world challenges.
+                    <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-wrap'>
+                        Frontend Developer and Information Technology graduate from Build Bright University with experience in building responsive and user-friendly web applications. Skilled in HTML, CSS, JavaScript, Bootstrap, React, and Git, with a strong understanding of modern web development practices. Passionate about creating clean, efficient, and visually appealing interfaces while continuously learning new technologies and improving development skills.
                     </p>
                     <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
                         <button className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
