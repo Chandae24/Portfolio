@@ -2,6 +2,7 @@
 import { Download } from 'lucide-react';
 import React from 'react';
 import hero from '../assets/hero.jpg';
+import {downloadResume} from "./utils/downlaodCV.js";
 
 const HeroSection = () => {
   return (
@@ -32,15 +33,17 @@ const HeroSection = () => {
                             </span>
                         </button>
 
-                        <button className='border border-[#289eff] px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
+                        <button className='border border-[#289eff] px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center' onClick={downloadResume}>
                             <div className='hover:scale-105 transition-all ease-in-out flex justify-center items-center relative'>
                                 <div className='svg-container'>
                                     <Download size={18} className='text-primary'/>
                                     <div className='download-loader text-white hidden'></div>
                                 </div>
-                                <a href='/resume.pdf' download="resume.pdf" className='pl-2 text-primary'>Download Resume</a>
+                                <a href='#'  className='pl-2 text-primary'>Download Resume</a>
                             </div>
                         </button>
+
+
                     </div>
                 </div>
 
