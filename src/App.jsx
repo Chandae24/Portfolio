@@ -2,7 +2,11 @@ import React from 'react'
 import Header from './components/Header'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
+import HeroSection from './components/HeroSection'
+import Education from './components/Education'
+import Certificates from './components/Certificates'
+import AboutSection from './components/AboutSection'
+import Experience from './components/Experience'
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -14,6 +18,11 @@ const App = () => {
   return (
     <div className='bg-[#111111] min-h-screen '>
       <Header />
+      <HeroSection />
+      <Education />
+      <Certificates />
+      <AboutSection />
+      <Experience />
     </div>
   )
 }

@@ -1,0 +1,75 @@
+/* eslint-disable no-unused-vars */
+import { Download } from 'lucide-react';
+import React from 'react';
+import hero from '../assets/hero.jpg';
+
+const HeroSection = () => {
+  return (
+    <section className='relative w-full' data-aos='zoom-in-up'>
+        <div className='absolute top-0 inset-x-0 h-64 flex items-start'>
+            <div className='h-24 w-2/3 bg-linear-to-br from-[#0c7fac] blur-2xl invisible opacity-40'></div>
+            <div className='h-20 w-3/4 bg-linear-to-br from-[#289eff] opacity-40 blur-2xl'></div>
+        </div>
+        <div className='w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>
+            <div className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
+                <div className='lg:py-6'>
+                    <div className='text-center lg:text-left'>
+                        <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
+                            Hi, I'm{' '}
+                            <span className='text-transparent bg-clip-text bg-linear-to-br from-primary to-[#289eff]'>Kimsour</span>
+                            👋
+                        </h1>
+                    </div>
+                    <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl'>
+                        Versatile and highly motivated Information Technology student with practical experience as an IT Instructor, 
+                        IT Support Specialist, and Content Creator. Proficient in both front-end and back-end development, 
+                        with a strong foundation in modern web technologies, programming, and system troubleshooting. 
+                        Experienced in delivering IT training, providing technical support, and producing high-quality digital content, 
+                        including photo and video editing. Demonstrates strong analytical thinking, problem-solving abilities, 
+                        effective communication, and adaptability in dynamic environments. Passionate about continuous learning, 
+                        innovation, and leveraging technology to develop efficient solutions for real-world challenges.
+                    </p>
+                    <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
+                        <button className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
+                            <span className='absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out
+                                bg-primary border-2 border-transparent'></span>
+                            <span className = 'relative flex items-center justify-center text-white '>
+                                Hire Me
+                            </span>
+                        </button>
+
+                        <button className='border border-[#289eff] px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
+                            <div className='hover:scale-105 transition-all ease-in-out flex justify-center items-center relative'>
+                                <div className='svg-container'>
+                                    <Download size={18} className='text-primary'/>
+                                    <div className='download-loader text-white hidden'></div>
+                                </div>
+                                <a href='/resume.pdf' download="resume.pdf" className='pl-2 text-primary'>Download Resume</a>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div className='lg:h-full md:flex'>
+                    <div className='lg:h-full md:flex'>
+                        <div className="relative flex justify-center items-center h-100">
+                            <div className="absolute z-0 w-5/6 h-[80%] bg-gradient-to-r from-[#0c64ac] to-cyan-500 opacity-25 blur-2xl"></div>
+
+                                <div className="relative z-10 p-2 rounded-[30%_70%_70%_30%/30%_30%_70%_70%] border border-cyan-500">
+                                    <img
+                                    src={hero}
+                                    alt="Hero pic"
+                                    className="w-100 h-100 object-cover rounded-[30%_70%_70%_30%/30%_30%_70%_70%]"
+                                    />
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+  );
+};
+
+export default HeroSection;

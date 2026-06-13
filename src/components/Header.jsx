@@ -64,7 +64,7 @@ const Header = () => {
       )} 
       
       <div className={`fixed top-0 right-0 h-full w-80
-            bg-[#111827] z-50 transition-transform duration-300
+            bg-[#010101] z-50 transition-transform duration-300
             md:hidden ${
               isMenuOpen ? 'translate-x-0' : 'translate-x-full'
             } p-8 flex flex-col`}>
@@ -85,8 +85,9 @@ const Header = () => {
             ))}
             <li className='pt-6'>
               <button onClick={() => scrollToSection('#contact')}
-                className='w-full bg-primary text-white py-4 rounded-xl text-lg font-bold'
-              >Contact Me</button>
+                className='w-full bg-primary text-white py-4 rounded-xl text-lg font-bold'>
+                  Contact Me
+              </button>
             </li>
           </ul>
       </div>
