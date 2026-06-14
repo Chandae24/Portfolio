@@ -13,7 +13,7 @@ export default function ProjectCard({ project }) {
           loading="lazy"
         />
         <div className="absolute inset-0 bg-linear-to-t from-(--color-card) via-transparent to-transparent" />
-        <span className="absolute left-3 top-3 rounded-full border border-(--color-border) bg-(--color-background)/80
+        <span className="absolute left-3 top-3 rounded-full border border-(--color-border) bg-black
                  px-3 py-1 text-xs font-medium text-(--color-accent) backdrop-blur">
           {project.category}
         </span>
