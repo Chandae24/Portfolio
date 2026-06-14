@@ -25,15 +25,15 @@ export const projects = [
   },
   {
     id: "p3",
-    title: "Drink Shop ",
+   title: "E-Commerce Project",
     description:
       "A web-based drink ordering system designed to help customers easily browse drink menus, place orders, and manage purchases efficiently through an intuitive and responsive interface.",
-    tags: ["React", "Tailwind", "Vue"],
+    tags: ["Next", "Tailwind"],
     year: "2023",
     category: "Web Site",
     liveUrl: "#",
     repoUrl: "#",
-    image: "/projects/drinkshop.jpg",
+    image: "/projects/ecommerce.png",
   },
   {
     id: "p4",
@@ -45,48 +45,41 @@ export const projects = [
     category: "Website",
     liveUrl: "#",
     repoUrl: "#",
-    image: "/projects/bookstore.jpg",
-  },
-  {
-    id: "p5",
-    title: "Weather Forecast App",
-    description:
-      "Real-time weather app consuming a public API with location search, 5-day forecast, and animated weather states.",
-    tags: ["React", "API", "Git"],
-    year: "2024",
-    category: "Web App",
-    liveUrl: "#",
-    repoUrl: "#",
-  
-    image: "/projects/weather.png",
-  },
-  {
-    id: "p6",
-    title: "Portfolio Design System",
-    description:
-      "A reusable component library and design tokens used to keep typography, spacing, and color consistent across projects.",
-    tags: ["UI/UX", "Figma", "Tailwind"],
-    year: "2023",
-    category: "UI/UX",
-    liveUrl: "#",
-    image: "/projects/designsystem.png",
-  },
-];
+    image: "/projects/bookstore.png",
+  }
+  // {
+  //   id: "p5",
+  //   title: "Weather Forecast App",
+  //   description:
+  //     "Real-time weather app consuming a public API with location search, 5-day forecast, and animated weather states.",
+  //   tags: ["React", "API", "Git"],
+  //   year: "2024",
+  //   category: "Web App",
+  //   liveUrl: "#",
+  //   repoUrl: "#",
+  //   image: "/projects/weather.png",
+  // },
+  // {
+  //   id: "p6",
+  //   title: "Portfolio Design System",
+  //   description:
+  //     "A reusable component library and design tokens used to keep typography, spacing, and color consistent across projects.",
+  //   tags: ["UI/UX", "Figma", "Tailwind"],
+  //   year: "2023",
+  //   category: "UI/UX",
+  //   liveUrl: "#",
+  //   image: "/projects/designsystem.png",
+  // },
+]
 
 export const certificates = [
   {
     id: "c1",
-    title: "IT Instructor",
-    issuer: "Narith.MASTER-IT EDCUTION CO., Ltd",
-    date: "April 14th 2025",
+    title: "Responsive Web Design",
+    issuer: "freeCodeCamp",
+    date: "Mar 2025",
     credentialId: "FCC-RWD-2025",
-    skills: [
-      "Teaching Mircrosoft Program Courses",
-      "Create Computer Course",
-      "Online Course",
-      "Online IT Support",
-    ],
-    image: "/projects/learning.png",
+    skills: ["HTML", "CSS", "Flexbox", "Grid"],
   },
   {
     id: "c2",
@@ -95,7 +88,6 @@ export const certificates = [
     date: "Jan 2025",
     credentialId: "FCC-JS-2025",
     skills: ["JavaScript", "ES6", "Algorithms"],
-    image: "/projects/learning.png",
   },
   {
     id: "c3",
@@ -104,7 +96,6 @@ export const certificates = [
     date: "Nov 2024",
     credentialId: "UC-REACT-9931",
     skills: ["React", "Hooks", "Routing"],
-    image: "/projects/learning.png",
   },
   {
     id: "c4",
@@ -113,7 +104,6 @@ export const certificates = [
     date: "Sep 2024",
     credentialId: "META-FE-4471",
     skills: ["React", "UI/UX", "Version Control"],
-    image: "/projects/learning.png",
   },
   {
     id: "c5",
@@ -122,7 +112,6 @@ export const certificates = [
     date: "Jun 2024",
     credentialId: "CRS-GIT-2210",
     skills: ["Git", "GitHub", "CI"],
-    image: "/projects/learning.png",
   },
   {
     id: "c6",
@@ -131,9 +120,8 @@ export const certificates = [
     date: "Apr 2024",
     credentialId: "UC-BS5-8820",
     skills: ["Bootstrap", "CSS", "Responsive"],
-    image: "/projects/learning.png",
   },
-];
+]
 /*
 
     const certificates = [

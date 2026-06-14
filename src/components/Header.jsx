@@ -22,7 +22,7 @@ const Header = () => {
 
         {/* Logo */}
         <div className='text-white text-3xl font-bold cursor-pointer'>
-            Sour Dev<span className='text-primary'>.</span>
+            PORTFOLIO<span className='text-primary'>.</span>
         </div>
 
         {/* NAVIGATION */}
