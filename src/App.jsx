@@ -7,6 +7,7 @@ import Education from './components/Education'
 import Certificates from './components/Certificates'
 import AboutSection from './components/AboutSection'
 import Experience from './components/Experience'
+import ProjectsSection from './components/ProjectSections'
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -20,7 +21,10 @@ const App = () => {
       <Header />
       <HeroSection />
       <Education />
+      <ProjectsSection/>
+      
       <Certificates />
+      
       <AboutSection />
       <Experience />
     </div>

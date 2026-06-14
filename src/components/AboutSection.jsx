@@ -26,7 +26,7 @@ With a strong problem-solving mindset, attention to detail, and eagerness to lea
                         <div className='text-center rounded-2xl bg-[#111a3e] border
                     border-[#1f1641] p-5 transition-all duration-300 hover:border-primary/50'>
                             <h3 className='text-primary font-bold text-2xl md:text-3xl'>
-                                + 5
+                                + 6
                             </h3>
                             <p className='text-xs text-gray-400 uppercase tracking-wider mt-0.5'>Priject</p>
                         </div>
