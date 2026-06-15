@@ -14,7 +14,7 @@ export default function ProjectCard({ project }) {
         />
         <div className="absolute inset-0 bg-linear-to-t from-(--color-card) via-transparent to-transparent" />
         <span className="absolute left-3 top-3 rounded-full border border-(--color-border) bg-black
-                 px-3 py-1 text-xs font-medium text-(--color-accent) backdrop-blur">
+                 px-3 text-xs font-medium text-(--color-accent) backdrop-blur">
           {project.category}
         </span>
       </div>
@@ -33,18 +33,18 @@ export default function ProjectCard({ project }) {
           {project.tags.map((tag) => (
             <span
               key={tag}
-              className="rounded-md bg-(--color-surface-2) px-2.5 py-1 text-xs font-medium text-(--color-foreground)/80"
+              className="rounded-md bg-(--color-surface-2) px-2.5 text-xs font-medium text-(--color-foreground)/80"
             >
               {tag}
             </span>
           ))}
         </div>
 
-        <div className="mt-5 flex items-center gap-3 border-t border-(--color-border) pt-4">
+        <div className="mt-5 flex items-center gap-3 border-t border-(--color-border)">
           {project.liveUrl && (
             <a
               href={project.liveUrl}
-              className="inline-flex items-center gap-1.5 rounded-lg bg-(--color-brand) px-3.5 py-2 text-sm font-semibold
+              className="inline-flex items-center gap-1.5 rounded-lg bg-(--color-brand) px-3.5 text-sm font-semibold
                text-white transition-colors hover:bg-(--color-brand-bright)"
             >
               Live Demo
@@ -54,7 +54,7 @@ export default function ProjectCard({ project }) {
           {project.repoUrl && (
             <a
               href={project.repoUrl}
-              className="inline-flex items-center gap-1.5 rounded-lg border border-(--color-border) px-3.5 py-2 text-sm 
+              className="inline-flex items-center gap-1.5 rounded-lg border border-(--color-border) px-3.5 text-sm 
               font-semibold text-(--color-foreground) transition-colors hover:border-(--color-accent) 
               hover:text-(--color-accent)"
             >

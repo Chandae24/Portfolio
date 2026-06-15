@@ -27,7 +27,7 @@ const Education = () => {
        }
 ]
   return (
-    <section className='text-white py-20 overflow-hidden' data-aos='education' id='education'>
+    <section className='text-white overflow-hidden' data-aos='education' id='education'>
         <div className='max-w-7xl mx-auto px-6 lg:px-16'>
 
             <p className='text-primary text-sm uppercase tracking-wider mb-2 font-semibold'>
@@ -78,7 +78,7 @@ const Education = () => {
                                     </p>
                                 </div>
 
-                                <div className='flex items-center gap-2 text-xs font-medium bg-[#050816] px-3 py-1 rounded-full border border-gray-700 w-fit'>
+                                <div className='flex items-center gap-2 text-xs font-medium bg-[#050816] px-3  rounded-full border border-gray-700 w-fit'>
                                     <Calendar size={12} className='text-primary'/>
                                     {edu.duration}
                                 </div>

@@ -19,7 +19,7 @@ const App = () => {
     })
   }, []);
   return (
-    <div className='bg-[#111111] min-h-screen '>
+    <div className='flex bg-[#111111] min-h-screen flex-col space-y-10 pt-5'>
       <Header />
       <HeroSection />
       <Education />

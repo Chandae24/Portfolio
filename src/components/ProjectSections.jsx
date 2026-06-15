@@ -13,7 +13,7 @@ export default function ProjectsSection() {
   )
 
   return (
-    <section id="projects" className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+    <section id="projects" className="mx-auto max-w-6xl px-5 sm:px-8">
           <p className='text-primary text-sm uppercase tracking-wider mb-2 font-semibold'>
                 Project Experience
             </p>
@@ -31,7 +31,7 @@ export default function ProjectsSection() {
               type="button"
               onClick={() => setActive(category)}
               className={
-                "rounded-full px-4 py-2 text-sm font-semibold transition-colors " +
+                "rounded-full px-4 text-sm font-semibold transition-colors " +
                 (active === category
                   ? "bg-primary text-white"
                   : "border text-white hover:border-(--color-brand-bright) hover:text-(--color-foreground) ")

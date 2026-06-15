@@ -2,7 +2,7 @@ import { CheckCircle } from "lucide-react";
 import { skills } from "../data";
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 text-white">
+    <section id="skills" className="text-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
 
         <p className="text-primary uppercase tracking-widest text-sm font-semibold mb-2">

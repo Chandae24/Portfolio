@@ -6,7 +6,7 @@ import { certificates } from '../data'
 
 const Certificates = () => {
   return (
-    <section className='text-white py-20' id='certificates'>
+    <section className='text-white' id='certificates'>
         <div className='max-w-7xl mx-auto lg:px-16'>
             <div className='mb-16'>
                 <p className='text-primary text-sm uppercase tracking-widest mb-2 font-semibold'>

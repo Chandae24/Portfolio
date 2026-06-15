@@ -12,26 +12,26 @@ const HeroSection = () => {
             </div>
             <div className='w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>
                 <div
-                    className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
-                    <div className='lg:py-6 md:order-1'>
+                    className='flex flex-col-reverse lg:flex-row relative  lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
+                    <div className=''>
                         <div className='text-center lg:text-left'>
-                            <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
+                            <h1 className='text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                                 Hi, I'm{' '}
                                 <span
                                     className='text-transparent bg-clip-text bg-linear-to-br from-primary to-[#289eff]'>Kimsour</span>
                                 👋
                             </h1>
                         </div>
-                        <p className='text-gray-300 pt-8 text-center lg:text-left mx-auto max-w-xl text-wrap'>
+                        <p className='text-gray-300 text-center lg:text-left mx-auto max-w-xl text-wrap'>
                             Frontend Developer and Information Technology graduate from Build Bright University with
                             experience in building responsive and user-friendly web applications. Skilled in HTML, CSS,
                             JavaScript, Bootstrap, React, and Git, with a strong understanding of modern web development
                             practices. Passionate about creating clean, efficient, and visually appealing interfaces
                             while continuously learning new technologies and improving development skills.
                         </p>
-                        <div className='flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max lg:mx-0'>
+                        <div className='flex items-center gap-3 flex-col sm:flex-row sm:w-max lg:mx-0'>
                             <button
-                                className='px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
+                                className='px-6 md:px-7 rounded-full relative group w-full sm:w-max flex justify-center'>
                             <span className='absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out
                                 bg-primary border-2 border-transparent'></span>
                                 <span className='relative flex items-center justify-center text-white '>
@@ -41,7 +41,7 @@ const HeroSection = () => {
                             </button>
 
                             <button
-                                className='border border-[#289eff] px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center'>
+                                className='border border-[#289eff] px-6 md:px-7 rounded-full relative group w-full sm:w-max flex justify-center'>
                                 <div
                                     className='hover:scale-105 transition-all ease-in-out flex justify-center items-center relative'>
                                     <div className='svg-container'>
@@ -57,7 +57,7 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    <div className='lg:h-full md:flex md:order-1'>
+                    <div className='lg:h-full md:flex '>
                         <div className='lg:h-full md:flex'>
                             <div className="relative flex justify-center items-center h-100">
                                 <div
@@ -68,7 +68,7 @@ const HeroSection = () => {
                                     <img
                                         src={hero}
                                         alt="Hero pic"
-                                        className="w-100 h-100 object-cover rounded-[30%_70%_70%_30%/30%_30%_70%_70%]"
+                                        className="h-80 lg:h-100 object-cover rounded-[30%_70%_70%_30%/30%_30%_70%_70%]"
                                     />
                                 </div>
                             </div>

@@ -17,7 +17,7 @@ const Header = () => {
     document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' });
   }
   return (
-    <header className='relative z-50 px-6 py-7'>
+    <header className='relative z-50 px-6 '>
       <div className='max-w-7xl mx-auto flex items-center justify-between'>
 
         {/* Logo */}
@@ -41,7 +41,7 @@ const Header = () => {
           
           <button
             onClick={() => scrollToSection('#contact')}
-            className='bg-primary hover:bg-primary/90 text-white px-6 py-2.5 rounded-lg
+            className='bg-primary hover:bg-primary/90 text-white px-6 rounded-lg
             text-base font-semibold transition-all'
           >
                Contact Me
@@ -83,9 +83,9 @@ const Header = () => {
                   </button>
               </li>
             ))}
-            <li className='pt-6'>
+            <li>
               <button onClick={() => scrollToSection('#contact')}
-                className='w-full bg-primary text-white py-4 rounded-xl text-lg font-bold'>
+                className='w-full bg-primary text-white rounded-xl text-lg font-bold'>
                   Contact Me
               </button>
             </li>

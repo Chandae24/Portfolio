@@ -5,7 +5,7 @@ import about from '../assets/about.jpg'
 const AboutSection = () => {
     return (
       <section className="text-white mt-10 relative overflow-hidden" id="moreabout">
-        <div className="max-w-7xl mx-auto px-4 md:grid md:grid-cols-2 gap-12 items-center py-16 xl:px-16 relative z-10">
+        <div className="max-w-7xl mx-auto px-4 md:grid md:grid-cols-2 gap-12 items-center xl:px-16 relative z-10">
           <div data-aos="fade-right">
             <h2 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
               More <span className="text-primary">About </span> Me

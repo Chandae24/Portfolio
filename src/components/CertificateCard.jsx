@@ -30,7 +30,7 @@ export default function CertificateCard({ certificate }) {
           {certificate.skills.map((skill) => (
             <span
               key={skill}
-              className="rounded-md bg-(--color-surface-2) px-2 py-0.5 text-xs font-medium text-(--color-foreground)/70"
+              className="rounded-md bg-(--color-surface-2) px-2 text-xs font-medium text-(--color-foreground)/70"
             >
               {skill}
             </span>
