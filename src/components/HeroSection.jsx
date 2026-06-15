@@ -13,7 +13,7 @@ const HeroSection = () => {
             <div className='w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>
                 <div
                     className='flex flex-col-reverse lg:flex-row relative  lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
-                    <div className=''>
+                    <div className='flex flex-col space-y-10'>
                         <div className='text-center lg:text-left'>
                             <h1 className='text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                                 Hi, I'm{' '}
@@ -29,7 +29,7 @@ const HeroSection = () => {
                             practices. Passionate about creating clean, efficient, and visually appealing interfaces
                             while continuously learning new technologies and improving development skills.
                         </p>
-                        <div className='flex items-center gap-3 flex-col sm:flex-row sm:w-max lg:mx-0'>
+                        <div className='flex items-center gap-3 flex-col space-y-2 sm:flex-row sm:w-max lg:mx-0'>
                             <button
                                 className='px-6 md:px-7 rounded-full relative group w-full sm:w-max flex justify-center'>
                             <span className='absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out
