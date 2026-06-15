@@ -46,7 +46,8 @@ export const projects = [
     liveUrl: "#",
     repoUrl: "#",
     image: "/projects/bookstore.png",
-  }
+  },
+  
   // {
   //   id: "p5",
   //   title: "Weather Forecast App",
@@ -151,4 +152,30 @@ export const certificates = [
         }
     ]
 
-*/
+  */
+  export const skills = [
+    {
+      title: "Frontend Development",
+      description: "React.js, JavaScript, Tailwind CSS, Bootstrap, HTML & CSS",
+    },
+    {
+      title: "Backend Development",
+      description: "PHP, Laravel, Node.js, MySQL, REST API",
+    },
+    {
+      title: "IT Support",
+      description: "Hardware, Software, Network Troubleshooting",
+    },
+    {
+      title: "Computer Teaching",
+      description: "Microsoft Office & Computer Fundamentals",
+    },
+    {
+      title: "Content Creation",
+      description: "Social Media Content & Graphic Design",
+    },
+    {
+      title: "Video Editing",
+      description: "Premiere Pro, CapCut, Visual Storytelling",
+    },
+  ];

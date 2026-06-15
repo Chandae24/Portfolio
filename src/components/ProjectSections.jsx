@@ -14,6 +14,13 @@ export default function ProjectsSection() {
 
   return (
     <section id="projects" className="mx-auto max-w-6xl px-5 py-20 sm:px-8">
+          <p className='text-primary text-sm uppercase tracking-wider mb-2 font-semibold'>
+                Project Experience
+            </p>
+
+            <h2 className='text-4xl md:text-5xl font-extrabold text-white'>
+                Project.
+            </h2><br/>
       <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
       
 
