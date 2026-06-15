@@ -39,26 +39,8 @@ const Experience = () => {
             </h2><br/>
 
             <div className='flex flex-col lg:flex-row items-center gap-16'>
-                <div className='w-full lg:w-5/12 flew justify-center lg:justify-start' data-aos='fade-right'>
-                    
-                    <div className="relative inline-block">
-                        {/* Back Border Frame */}
-                        <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-2xl border-2 border-cyan-500"></div>
 
-                        {/* Image Card */}
-                        <div className="relative z-10 overflow-hidden rounded-2xl border border-cyan-700">
-                            <img
-                                src={work}
-                                alt="Experience"
-                                className="w-64 h-64 md:w-100 md:h-120 object-cover transition-transform duration-500 hover:scale-110"
-                            />
-                        </div>
-
-                        <div className='absolute -top-4 -left-4 bg-primary/20 w-16 h-16 rounded-full blur-3xl'></div>
-                    </div>
-                </div>
-
-                <div className='w-full lg:w-7/12 space-y-6' data-aos='fade-left'>
+                <div className='w-full lg:w-7/12 space-y-6' data-aos='fade-right'>
                     {experienceData.map((work) => (
                         <div key={work.id} className='group relative p-6 rounded-2xl bg-[#111a3e] border border-[#1f1641]
                             transition-all duration-300 hover:border-primary/50'>
@@ -87,14 +69,32 @@ const Experience = () => {
                                 {work.details}
                             </p>
                             
-                            {/* <div className='flex items-center gap-2 text-[10] uppercase-wider text-primary font-bold'>
-                                <CheckCircle size={12}/>
-                                Academic Excellence
+                            <div className='flex items-center gap-2 text-[10] uppercase-wider text-primary font-bold'>
+                                <CheckCircle size={12} className='text-white font-bold'/>
+                                Technical Expertise
                             </div>
-                             */}
+                            
                         </div>
                        
                     ))}
+                </div>
+                <div className='w-full lg:w-5/12 flew justify-center lg:justify-start' data-aos='fade-left'>
+                    
+                    <div className="relative inline-block">
+                        {/* Back Border Frame */}
+                        <div className="absolute inset-0 translate-x-4 translate-y-4 rounded-2xl border-2 border-cyan-500"></div>
+
+                        {/* Image Card */}
+                        <div className="relative z-10 overflow-hidden rounded-2xl border border-cyan-700">
+                            <img
+                                src={work}
+                                alt="Experience"
+                                className="w-64 h-64 md:w-100 md:h-120 object-cover transition-transform duration-500 hover:scale-110"
+                            />
+                        </div>
+
+                        <div className='absolute -top-4 -right-4 bg-primary/20 w-16 h-16 rounded-full blur-3xl'></div>
+                    </div>
                 </div>
             </div>
         </div>

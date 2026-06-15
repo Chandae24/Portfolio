@@ -9,6 +9,7 @@ import AboutSection from './components/AboutSection'
 import Experience from './components/Experience'
 import ProjectsSection from './components/ProjectSections'
 import Skills from './components/Skills'
+import Contact from './components/Contact'
 const App = () => {
   React.useEffect(() => {
     AOS.init({
@@ -27,6 +28,7 @@ const App = () => {
       {/* <Certificates /> */}
       <Skills/>
       <AboutSection />
+      <Contact/>
     </div>
   )
 }
