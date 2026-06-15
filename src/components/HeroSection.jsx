@@ -13,7 +13,7 @@ const HeroSection = () => {
             <div className='w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-5xl lg:max-w-7xl mx-auto relative'>
                 <div
                     className='grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w-3xl mx-auto'>
-                    <div className='lg:py-6'>
+                    <div className='lg:py-6 md:order-1'>
                         <div className='text-center lg:text-left'>
                             <h1 className='pt-4 text-white font-bold text-4xl md:text-5xl lg:text-6xl'>
                                 Hi, I'm{' '}
@@ -57,7 +57,7 @@ const HeroSection = () => {
                         </div>
                     </div>
 
-                    <div className='lg:h-full md:flex'>
+                    <div className='lg:h-full md:flex md:order-1'>
                         <div className='lg:h-full md:flex'>
                             <div className="relative flex justify-center items-center h-100">
                                 <div
