@@ -10,7 +10,7 @@ const Header = () => {
     {name: 'Projects', href:'#projects'},
     {name: 'Skills', href:'#skills'},
     {name: 'About Me', href:'#moreabout'},
-    {name: 'Contact', href:'#footer'},
+    // {name: 'Contact', href:'#footer'},
   ];
 
   const scrollToSection = (href) => {
@@ -41,7 +41,7 @@ const Header = () => {
           </ul>
           
           <button
-            onClick={() => scrollToSection('#contact')}
+            onClick={() => scrollToSection('#footer')}
             className='bg-primary hover:bg-primary/90 text-white px-6 rounded-lg
             text-base font-semibold transition-all'
           >
@@ -85,7 +85,7 @@ const Header = () => {
               </li>
             ))}
             <li>
-              <button onClick={() => scrollToSection('footer')}
+              <button onClick={() => scrollToSection('#footer')}
                 className='w-full bg-primary text-white rounded-xl text-lg font-bold'>
                   Contact Me
               </button>

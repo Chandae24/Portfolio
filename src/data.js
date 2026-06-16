@@ -8,7 +8,7 @@ export const projects = [
     year: "2026",
     category: "Website",
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/Chandae24/OnlineCourse.git",
     image: "/projects/learning.png",
   },
   {
@@ -20,7 +20,7 @@ export const projects = [
     year: "2025",
     category: "Website",
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/Chandae24/KhmerFood.git",
     image: "/projects/khmerFood.jpg",
   },
   {
@@ -32,7 +32,7 @@ export const projects = [
     year: "2023",
     category: "Web Site",
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/Chandae24/e-commerce.git",
     image: "/projects/ecommerce.png",
   },
   {
@@ -57,20 +57,21 @@ export const projects = [
     year: "2023",
     category: "Website",
     liveUrl: "#",
-    repoUrl: "#",
+    repoUrl: "https://github.com/Chandae24/StockManagementSystem.git",
     image: "/projects/store.png",
   },
-  // {
-  //   id: "p6",
-  //   title: "Portfolio Design System",
-  //   description:
-  //     "A reusable component library and design tokens used to keep typography, spacing, and color consistent across projects.",
-  //   tags: ["UI/UX", "Figma", "Tailwind"],
-  //   year: "2023",
-  //   category: "UI/UX",
-  //   liveUrl: "#",
-  //   image: "/projects/designsystem.png",
-  // },
+  {
+    id: "p6",
+    title: "Customer Management System",
+    description:
+      "A customer management platform for storing customer data, managing records, tracking activities, and enhancing business operations.",
+    tags: ["PHP", "MYSQL", "CSS"],
+    year: "2023",
+    category: "Website",
+    liveUrl: "#",
+    repoUrl: "https://github.com/Chandae24/CustomerManagement.git",
+    image: "/projects/customer.jpg",
+  },
 ]
 
 export const certificates = [

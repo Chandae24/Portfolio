@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <>
+    <section id='footer'>
       {/* <div className="max-w-2xl mx-auto"> */}
       <div className="container mx-auto" id='footer'>
         <footer className="p-4 sm:p-6">
@@ -76,7 +76,7 @@ const Footer = () => {
           </div>
         </footer>
       </div>
-    </>
+    </section>
   );
 };
 
