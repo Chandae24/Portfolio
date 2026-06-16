@@ -48,18 +48,18 @@ export const projects = [
     image: "/projects/bookstore.png",
   },
   
-  // {
-  //   id: "p5",
-  //   title: "Weather Forecast App",
-  //   description:
-  //     "Real-time weather app consuming a public API with location search, 5-day forecast, and animated weather states.",
-  //   tags: ["React", "API", "Git"],
-  //   year: "2024",
-  //   category: "Web App",
-  //   liveUrl: "#",
-  //   repoUrl: "#",
-  //   image: "/projects/weather.png",
-  // },
+  {
+    id: "p5",
+    title: "Stock Management System",
+    description:
+      "A stock and point-of-sale management system that enables businesses to manage inventory, process sales, track customer transactions, and monitor stock availability in real time.",
+    tags: ["HTML", "CSS", "JAVASCRIPT"],
+    year: "2023",
+    category: "Website",
+    liveUrl: "#",
+    repoUrl: "#",
+    image: "/projects/store.png",
+  },
   // {
   //   id: "p6",
   //   title: "Portfolio Design System",

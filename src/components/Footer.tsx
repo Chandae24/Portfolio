@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       {/* <div className="max-w-2xl mx-auto"> */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id='footer'>
         <footer className="p-4 sm:p-6">
           <hr className="my-6 border-[#4b4d4f] sm:mx-auto lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">

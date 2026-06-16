@@ -10,6 +10,7 @@ const Header = () => {
     {name: 'Projects', href:'#projects'},
     {name: 'Skills', href:'#skills'},
     {name: 'About Me', href:'#moreabout'},
+    {name: 'Contact', href:'#footer'},
   ];
 
   const scrollToSection = (href) => {
@@ -84,7 +85,7 @@ const Header = () => {
               </li>
             ))}
             <li>
-              <button onClick={() => scrollToSection('#contact')}
+              <button onClick={() => scrollToSection('footer')}
                 className='w-full bg-primary text-white rounded-xl text-lg font-bold'>
                   Contact Me
               </button>
