@@ -29,7 +29,7 @@ export const projects = [
     description:
       "A web-based drink ordering system designed to help customers easily browse drink menus, place orders, and manage purchases efficiently through an intuitive and responsive interface.",
     tags: ["Next", "Tailwind"],
-    year: "2023",
+    year: "2024",
     category: "Web Site",
     liveUrl: "#",
     repoUrl: "https://github.com/Chandae24/e-commerce.git",
